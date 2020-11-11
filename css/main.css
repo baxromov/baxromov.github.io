@@ -520,3 +520,27 @@ a{
   padding-left: 10px;
   margin-top: -15px;
 }
+section{
+	margin-top: 6rem;
+}
+section div.container div.row div.col-md-7 h3{
+	position: relative;
+}
+section div.container div.row div.col-md-7 h3:after{
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 30px;
+	background-color: #4550F4;
+	left: 0;
+	top	:-10px
+}
+section div.container div.row div.col-md-7 h1{
+	font-size: 30px;
+}
+section div.container div.row div.col-md-7 h1 span{
+	color: #4269CB;
+}
+.btn{
+	background-color: #4269CB !important;
+}
