@@ -490,3 +490,33 @@ a{
 .btn-outline-info{
     padding: 25px 18px 10px 10px !important
 }
+.card-group > .card h4,
+.card-group > .card {
+	color: #1C1C1C;
+}
+.card-group > .card:hover{
+	background-color: #4550F4;
+}
+
+.card-group > .card .card-body{
+	display: flex;
+	justify-content: space-around;
+}
+.card-group > .card div{
+	position: relative;
+}
+.card-group > .card div h1{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  color: white;
+  border-radius: 50%;
+  line-height: 30px;
+  padding-left: 10px;
+  margin-top: -15px;
+}
