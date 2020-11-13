@@ -544,3 +544,18 @@ section div.container div.row div.col-md-7 h1 span{
 .btn{
 	background-color: #4269CB !important;
 }
+section .card-group>.card{
+	margin: 30px;
+	padding: 35px 0 35px 0;
+} 
+section .card-group>.card span{
+	font-size: 40px;
+}
+section .card-group>.card h5{
+	font-weight: 900;
+	margin-top: 30px;
+}
+.info-cart-bax{
+	background-color: #EEF1F9;
+	padding: 60px 0 60px 0;
+}
