@@ -448,6 +448,10 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
 }
+
+
+
+
 .top-btn{
     background-color: #1588F2 !important;
     padding: 20px;
@@ -457,6 +461,36 @@ a{
     text-decoration: none !important;
 }
 
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
 .header-rgb{
     background: white;
     max-width: 979.8px !important;
@@ -558,4 +592,31 @@ section .card-group>.card h5{
 .info-cart-bax{
 	background-color: #EEF1F9;
 	padding: 60px 0 60px 0;
+}
+.card-service .card-group>.card{
+	padding: 0;
+}
+
+#carousel-bax{
+	display: flex;
+	justify-content: space-between;
+}
+#carousel-bax .header-bax-carousel h3{
+	position: relative;
+}
+#carousel-bax .header-bax-carousel h3::after{
+	position: absolute;
+	content: "";
+	width: 30%;
+	height: 3px;
+	left: 0;
+	top:-15px;
+	background-color:#4550F4;
+}
+#carousel-bax .header-bax-carousel h1 span{
+	color:#4550F4 ;
+	font-weight: 900;
+}
+#carousel-bax-bax .card .card-block{
+	padding: 30px;
 }
