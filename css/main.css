@@ -624,12 +624,11 @@ section .card-group>.card h5{
 	background-image: url('../img/5.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 400px;
+	height: 100%;
 	background-size: cover;
 	margin-top: 120px;
-	padding-top: 3em;
 	position: relative;	
-
+	padding: 3em 15px 3em 15px;
 }
 
 #info-bax-info .title-bax{
@@ -877,4 +876,19 @@ section .card-group>.card h5{
 	width: 70px;
 	height: 3px;
 	background-color: #4560DC;
+}
+footer{
+	background-color: #2B2158;
+	color: white !important;
+	margin-top: 100px;
+}
+html body section#question div.container.jumbotron.p-4.pad div.row div.col-md-6 form{
+	margin-top: 40px;
+}
+#about-company{
+	padding: 3em 15px 3em 15px;
+}
+html body section#given-quest div.container div.row div.col-md-8
+{
+	padding:3em;
 }
