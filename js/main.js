@@ -54,3 +54,8 @@ $('#tooltip').owlCarousel({
         }
     }
 })
+$(document).ready(function(){
+    $("#as").on("click", function(){
+        $("#header").toggle(1000);
+    });
+});

@@ -1,16 +1,22 @@
 /* Large desktops and laptops */
 @media screen and (min-width: 1200px) {
-
+    #as{
+        display: none !important;
+    }
 }
 
 /* Portrait tablets and medium desktops */
 @media screen and(min-width: 992px) and (max-width: 1199px) {
-
+    #as{
+        display: none !important;
+    }
 }
 
 /* Portrait tablets and small desktops */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
+    #as{
+        display: none !important;
+    }
 }
 
 /* Landscape phones and portrait tablets */
@@ -20,5 +26,21 @@
 
 /* Landscape phones and smaller */
 @media screen and (max-width: 480px) {
-
+    .bax-bax-bax{
+        display: none !important;
+    }
+    #mainav ul{
+        display: block !important;
+    }
+    #header{
+        display: none                                                                                                                                                                                                                                                                                ;
+    }
+    .header-rgb{
+        background-color: rgba(red, green, blue, .0) !important;
+    }
+    #as{
+        position: relative;
+        left: 90%;
+        font-size: 32px;
+    }
 }
