@@ -15,6 +15,42 @@ $(document).ready(function() {
         itemsMobile:[600,1],
         pagination:false,
         navigationText:false,
-        autoPlay:true
+        autoPlay:true,
+        responsiveClass:true,
+        responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:3,
+                    nav:true
+                },
+                1000:{
+                    items:3,
+                    nav:true,
+                    loop:true
+                }
+        }
     });
 });
+
+$('#tooltip').owlCarousel({
+    loop:true,
+    margin:10,
+    autoPlay:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+        },
+        600:{
+            items:1,
+            nav:true,
+        },
+        1000:{
+            items:1,
+            nav:true,
+        }
+    }
+})

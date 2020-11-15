@@ -811,3 +811,70 @@ section .card-group>.card h5{
 	height: 3px;
 	background-color: #4560DC;
 }
+
+#tooltip.owl-carousel.owl-theme.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.active div.item p
+{
+	border-radius:10px;
+	background:white;
+	border:1px solid #D7D7D7;
+	position: relative;	
+	padding: 20px;
+}
+	
+	#tooltip.owl-carousel.owl-theme.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.active div.item p:before{
+	bottom:-6px;
+	left:70px;
+	width:20px;
+	height:10px;
+	-webkit-transform:rotate(-45deg) skewX(-45deg);
+	-moz-transform:rotate(-45deg) skewX(-45deg);
+	-o-transform:rotate(-45deg) skewX(-45deg);
+	-ms-transform:rotate(-45deg) skewX(-45deg);
+	background:white;
+	z-index:1;
+	border-left: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	position: absolute;
+	content: "";
+}
+	
+	#tooltip.owl-carousel.owl-theme.owl-loaded.owl-drag div.owl-stage-outer div.owl-stage div.owl-item.active div.item p
+::after{
+	left:13px;
+	bottom:-1px;
+	width:15px;
+	height:1px;
+	background:#efefef;
+	position: absolute;
+	content: "";
+	}
+#tooltip.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-stage-outer .owl-stage .owl-item.active .item img
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+#tooltip.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-stage-outer .owl-stage .owl-item.active .item .bax-reviews{
+	display: flex;
+	justify-content: space-between;
+}
+.owl-carousel .owl-stage-outer{
+	height: 200px !important;
+}
+#reviews h1 span{
+	color:#4560DC;
+
+}
+#reviews h1{
+	position: relative;
+	font-size: 40px;
+}
+#reviews h1::after{
+	position: absolute;
+	content: "";
+	top: -15px;
+	left: 0;
+	width: 70px;
+	height: 3px;
+	background-color: #4560DC;
+}
